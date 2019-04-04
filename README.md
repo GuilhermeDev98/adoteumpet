@@ -1,29 +1,30 @@
 # adoteumpet
 
-## Project setup
-```
-yarn install
-```
+**Objetivo**
+_Criar um site onde será possível expor um animal para que seja adotado_
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+##Análise de Requisítos
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+* Autenticação
+[] Criar página de cadastro
+[] Criar página de login
 
-### Run your tests
-```
-yarn run test
-```
+* Pagina Principal
+[] Criar formulário de busca
+[] Criar lista de pets para adoção
 
-### Lints and fixes files
-```
-yarn run lint
-```
+* Perfil
+[] Criar Página de visualização de perfil
+[] Criar Página de edição de perfil
+[] Criar Pagina de apagar perfil
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* Pet
+
+[] Criar página de adição de pet
+[] Criar página de edição de pet
+[] Criar página de apagar pet
+
+## Técnologias utilizadas
+
+Auth, Database, Storage - [Firebase](https://firebase.google.com/)
+Página Web - [VueJs](https://vuejs.org/index.html)

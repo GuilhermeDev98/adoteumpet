@@ -42,6 +42,24 @@ _Criar um site onde será possível expor um animal para que seja adotado_
 - email - string - requerido
 - password - string - requerido
 - photoURL - string -requerido
+- cep - number - requerido
+- status - enum(admin, user) - default(user)
+
+#### Pet
+- name - string - requerido
+- age - number - requerido
+- type - enum(cat, dog) - requerido
+- sex - enum(male, female) - requerido
+- user_uid - string* - requerido
+- state - string - requerido
+- city - string - requerido
+- cep - number - optional
+- photos - array - requerido
+- isAdoted - boolean - default(0)
+- createdAt - date - required
+- adotedAt - date - optional
+- deletedAt - date - optional
+
 
 ## Técnologias utilizadas
 

@@ -5,7 +5,7 @@ _Criar um site onde será possível expor um animal para que seja adotado_
 
 ## Análise de Requisítos
 
-1 Autenticação
+* Autenticação
 - [ ] Criar página de cadastro
 - [ ] Criar página de login
 

@@ -16,15 +16,34 @@ _Criar um site onde será possível expor um animal para que seja adotado_
 * Perfil
 - [ ] Criar Página de visualização de perfil
 - [ ] Criar Página de edição de perfil
-- [ ] Criar Pagina de apagar perfil
+- [ ] Criar Pagina de exclusão de perfil
 
 * Pet
 
 - [ ] Criar página de adição de pet
 - [ ] Criar página de edição de pet
-- [ ] Criar página de apagar pet
+- [ ] Criar página de exclusão de pet
+
+* Administração
+
+- [ ] Criar página para administração de perfis
+- [ ] Criar página para edição de perfis
+- [ ] Criar página para exclusão de perfis
+
+- [ ] Criar página para administração de pets
+- [ ] Criar página para edição de pets
+- [ ] Criar página para exclusão de pets
+
+
+## Tipos de dados
+
+#### User
+- displayName - string - requerido
+- email - string - requerido
+- password - string - requerido
+- photoURL - string -requerido
 
 ## Técnologias utilizadas
 
-Auth, Database, Storage - [Firebase](https://firebase.google.com/)
-Página Web - [VueJs](https://vuejs.org/index.html)
+[Firebase](https://firebase.google.com/) - Authentication, Database, Storage
+[VueJs](https://vuejs.org/index.html) - Página Web
